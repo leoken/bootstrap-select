@@ -1,17 +1,18 @@
 bootstrap-select
 ================
 
-A custom select for @twitter bootstrap using button dropdown, designed to behave like regular Bootstrap selects;
+A custom select / multiselect for @twitter bootstrap using button dropdown, designed to behave like regular Bootstrap selects;
 
-## Demo
+## Demo and Documentation
 
 See an  example [here](http://silviomoreto.github.com/bootstrap-select/).
 
 ## Authors
 
 [Silvio Moreto](http://github.com/silviomoreto),
-[Ana Carolina](http://github.com/anacarolinats), and
-[caseyjhol](https://github.com/caseyjhol).
+[Ana Carolina](http://github.com/anacarolinats),
+[caseyjhol](https://github.com/caseyjhol), and
+[Matt Bryson](https://github.com/mattbryson).
 
 ## Usage
 
@@ -30,15 +31,16 @@ Enable Bootstrap-Select via JavaScript:
 Or just
 
     $('select').selectpicker();
-    
-Options can be passed via data attributes or JavaScript.
 
-    $('.selectpicker').selectpicker({
-      style: 'btn-info',
-      size: 4
-    });
+Checkout the [documentation](http://silviomoreto.github.com/bootstrap-select/) for further information.
 
-You can set different Bootstrap classes on the button via the `data-style` attribute. Classes are applied to `.btn-group`.Apply `.span*` class to the selects to set the width. Add the `disabled` attribute to the select to apply the `.disabled` class. The `size` option is set to `'auto'` by default. When `size` is set to `'auto'`, the menu always opens up to show as many items as the window will allow without being cut off. Set `size` to `false` to always show all items. The size of the menu can also be specifed using the `data-size` attribute. Specify a number for `data-size` to choose the maximum number of items to show in the menu. Make the select a dropup menu by adding the `.dropup` class to the select.
+## Bugs and feature requests
+
+Anyone and everyone is welcome to contribute. Please take a moment to
+review the [guidelines for contributing](CONTRIBUTING.md). Make sure you're using the latest version of bootstrap-select before submitting an issue.
+
+* [Bug reports](CONTRIBUTING.md#bugs)
+* [Feature requests](CONTRIBUTING.md#features)
 
 ## Copyright and license
 
